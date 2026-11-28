@@ -42,6 +42,13 @@ Git에 익숙하지 않은 사람은 다음과 같은 실수를 자주 합니다
 | 대시보드 배포 | Vercel |
 | 실행 환경 | Docker Compose (컨테이너 3종 이상, 구현하며 확정) |
 
+## 사용자 설치 가이드
+
+일반 사용자는 pipx와 Python Wheel을 이용하여 GitCoach를 설치할 수 있습니다.
+별도의 Python 가상환경 활성화 없이 GitCoach를 사용할 수 있습니다.
+
+- [GitCoach 사용자 설치 가이드](docs/guide/02_install.md)
+
 ## 로컬 실행
 
 지금은 `watcher`와 `dashboard`가 빈 컨테이너이며, 기능이 생기는 대로 채웁니다.
